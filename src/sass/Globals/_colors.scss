@@ -1,0 +1,33 @@
+:root {
+  // Primary colors
+  --lime-green: hsl(163, 72%, 41%);
+  --bright-red: hsl(356, 69%, 56%);
+  --facebook: hsl(208, 92%, 53%);
+  --twitter: hsl(203, 89%, 53%);
+  --instagram-linear-from: hsl(37, 97%, 70%);
+  --instagram-linear-to: hsl(329, 70%, 58%);
+  --youtube: hsl(348, 97%, 39%);
+
+  // ================
+  //    light Theme
+  // ================
+
+  --light-theme-toggle-btn: hsl(230, 22%, 74%);
+  --light-theme-background: hsl(0, 0%, 100%);
+  --light-theme-top-bg-pattern: hsl(225, 100%, 98%);
+  --light-theme-card-bg: hsl(227, 47%, 96%);
+  --light-theme-text-gray-blue: hsl(228, 12%, 44%);
+  --light-theme-text-dark: hsl(230, 17%, 14%);
+
+  // ================
+  //    Dark Theme
+  // ================
+
+  --dark-theme-toggle-btn-linear-from: hsl(210, 78%, 56%);
+  --dark-theme-toggle-btn-linear-to: hsl(146, 68%, 55%);
+  --dark-theme-background-dark-blue: hsl(230, 17%, 14%);
+  --dark-theme-top-background-pattern: hsl(232, 19%, 15%);
+  --dark-theme-card-background: hsl(228, 28%, 20%);
+  --dark-theme-text-desaturated-blue: hsl(228, 34%, 66%);
+  --dark-theme-text-white: hsl(0, 0%, 100%);
+}

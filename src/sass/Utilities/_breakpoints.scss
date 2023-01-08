@@ -1,0 +1,14 @@
+// 640px, 1100px, 1400px
+$breakpoint-up: (
+  "medium": "40em",
+  "large": "68.75em",
+  "xlarge": "87.5em",
+);
+
+// Pour les media-queries qui remontents ou le Mobile-firts
+
+@mixin breakpoint($size) {
+  @media only screen and (min-width: map-get($breakpoint-up, $size)) {
+    @content;
+  }
+}

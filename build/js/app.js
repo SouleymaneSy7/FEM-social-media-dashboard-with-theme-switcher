@@ -1,0 +1,2 @@
+"use strict";var body=document.querySelector("body"),toggleBtn=document.querySelector(".dashboard__toggle-btn");function localStore(o){localStorage.setItem("lightMode",o)}function localStorageLoad(){var o=localStorage.getItem("lightMode");o?"true"===o&&body.classList.add("lightMode"):localStore(!1)}localStorageLoad(),toggleBtn.addEventListener("click",(function(){body.classList.toggle("lightMode"),localStore(body.classList.contains("lightMode"))}));
+//# sourceMappingURL=app.js.map
